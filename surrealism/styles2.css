@@ -1,0 +1,75 @@
+/*Stylesheet for the Art of Surrealism*/
+
+header {
+	font-family:'Gothic A1', sans-serif;
+	font-size:5em;
+	text-align: left;
+}
+
+img {
+	width:100%;
+		
+	margin: auto;
+	/*margin-bottom: 1em;
+	margin-top: 1em;*/ 
+}
+	
+body {
+	font-family: 'Gothic A1',sans-serif;
+}
+
+h1 {
+	text-align: right;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align:right;
+	margin:0;
+	padding:0;
+}
+
+nav li {
+	color: white;
+	display: inline;
+	margin: 1em;
+}
+
+footer {
+	background-color: black;
+	display: inline;
+
+	position:variable;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.social {
+	width:3em;
+	margin:1em;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+.pageheader {
+	background-image: url("pictures/surrealism1.jpeg");
+	opacity: .7;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+}
+
+div {
+	display:inline-block;
+}	
+
+.flex {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
