@@ -3,15 +3,13 @@
 header {
 	font-family:'Gothic A1', sans-serif;
 	font-size:5em;
-	text-align: left;
+	text-align: right;
+	margin-left:50px;
 }
 
 img {
-	width:100%;
-		
-	margin: auto;
-	/*margin-bottom: 1em;
-	margin-top: 1em;*/ 
+	width:auto;
+	
 }
 	
 body {
@@ -20,12 +18,17 @@ body {
 
 h1 {
 	text-align: right;
+	margin-top: 100px;
+	margin-right:800px;
+
 }
 
 nav ul {
 	list-style-type: none;
 	text-align:right;
 	margin:0;
+	font-size:20px;
+	margin-bottom:15px;
 	padding:0;
 }
 
@@ -41,8 +44,10 @@ footer {
 
 	position:variable;
 	bottom:0;
-	left:0;
-	right:0;
+}
+
+div {
+
 }
 
 .social {
@@ -56,20 +61,39 @@ a {
 }
 
 .pageheader {
-	background-image: url("pictures/surrealism1.jpeg");
+	/*background-image: url("pictures/surrealism1.jpeg");
+	background-size:100% auto;
 	opacity: .7;
 	background-position: center center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 	
 }
 
-div {
-	display:inline-block;
-}	
 
 .flex {
 	display:flex;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
+	width:100%;
+	max-width:1000px;
+	margin: auto;
+	
 }
 
+.flex img, .flex p {
+	width: 450px;
+	margin-right:25px;
+}
+
+.top {
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	background-image: url("pictures/surrealism1.jpeg");
+	background-size:100% auto;
+	opacity: .7;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
